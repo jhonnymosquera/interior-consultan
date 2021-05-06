@@ -15,6 +15,7 @@
 body {
   background-color: #181719;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 .container {
@@ -182,7 +183,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: 105vh;
+    height: 100vh;
     background-color: #181719;
     z-index: 1;
     transition: all 800ms;
@@ -208,7 +209,8 @@ body {
     transform: rotate(45deg);
   }
   .container header .bars-active .b2 {
-    transform: translateX(150px);
+    transform: translateX(250px);
+    opacity: 0;
   }
   .container header .bars-active .b3 {
     top: -14px;

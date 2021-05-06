@@ -18,6 +18,7 @@ $secon-color: #a9a9a9;
 body {
 	background-color: $base-color;
 	font-size: 16px;
+	overflow-x: hidden;
 }
 
 .container {
@@ -243,7 +244,7 @@ body {
 					flex-direction: column;
 					justify-content: center;
 					text-align: center;
-					height: 105vh;
+					height: 100vh;
 					background-color: $base-color;
 					z-index: 1;
 
@@ -278,7 +279,8 @@ body {
 				}
 
 				.b2 {
-					transform: translateX(150px);
+					transform: translateX(250px);
+					opacity: 0;
 				}
 
 				.b3 {
