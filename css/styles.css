@@ -14,8 +14,6 @@
 
 body {
   background-color: #181719;
-  font-size: 16px;
-  overflow-x: hidden;
 }
 
 .container {
@@ -71,17 +69,6 @@ body {
   width: 50px;
   height: 4px;
   margin-bottom: 10px;
-}
-.container header .bars .b1 {
-  position: relative;
-  top: 0;
-}
-.container header .bars .b2 {
-  position: relative;
-}
-.container header .bars .b3 {
-  position: relative;
-  top: 0;
 }
 .container main {
   grid-area: main;
@@ -179,7 +166,7 @@ body {
     width: 100%;
     position: absolute;
     top: 0;
-    left: -800px;
+    left: 800px;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -192,6 +179,7 @@ body {
     margin: 32px;
   }
   .container header nav .menu {
+    display: flex;
     left: 0px;
   }
   .container header .nav-active {
@@ -204,12 +192,20 @@ body {
   .container header .bars .bar {
     transition: all 800ms;
   }
+  .container header .bars .b1 {
+    position: relative;
+    top: 0;
+  }
+  .container header .bars .b3 {
+    position: relative;
+    top: 0;
+  }
   .container header .bars-active .b1 {
     top: 14px;
     transform: rotate(45deg);
   }
   .container header .bars-active .b2 {
-    transform: translateX(250px);
+    transform: translateX(-300px);
     opacity: 0;
   }
   .container header .bars-active .b3 {
