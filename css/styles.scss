@@ -48,7 +48,6 @@ body {
 		#logo {
 			display: block;
 			width: 42%;
-			float: left;
 
 			a {
 				padding: 10px;
@@ -60,7 +59,6 @@ body {
 
 		nav {
 			width: 40%;
-			float: right;
 
 			ul {
 				display: flex;
@@ -230,7 +228,7 @@ body {
 					flex-direction: column;
 					justify-content: center;
 					text-align: center;
-					height: 120vh;
+					height: 100vh;
 					background-color: $base-color;
 					z-index: 1;
 
@@ -244,10 +242,6 @@ body {
 					display: flex;
 					left: 0px;
 				}
-			}
-
-			.nav-active {
-				display: block;
 			}
 
 			.bars {
